@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1>Hello{% if current_user.is_authenticated %} {{ current_user.username }}{% endif %}!</h1>
+  {% if not current_user.is_authenticated %}
+  <p class="lead">Welcome to the Starter Site!</p>
+  <p><a class="btn btn-lg btn-success" href="{{ url_for('register') }}" role="button">Register</a></p>
+  {% else %}
+  <p class="lead">You're seeing the logged in content.</p>
+  {% endif %}
+</div>
+{% endblock %}
