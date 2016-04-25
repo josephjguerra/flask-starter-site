@@ -11,8 +11,6 @@
 * `source flask-venv/bin/activate`
 
 ### get the code into a directory
-* `mkdir my-next-big-idea`
-* `cd my-next-big-idea`
 * `git clone https://github.com/josephjguerra/flask-starter-site.git`
 
 ### get the required packages
@@ -34,7 +32,7 @@
 * try connecting a real database
 * host your project on:
   - [pythonanywhere](https://www.pythonanywhere.com/) - my preference
-  - [Heroku](https://www.heroku.com/)
+  - [Heroku](https://www.heroku.com/) - also straightforward with heroku toolbelt
   - [DigitalOcean](https://www.digitalocean.com/)
   - [AWS](https://aws.amazon.com/)
 * the sky's the limit!
